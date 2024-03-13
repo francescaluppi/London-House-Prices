@@ -1,0 +1,30 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding 0;
+}
+
+.custom-dropdown .Select-control {
+    background-color: #f4f4f4; !important;
+    color:black;
+}
+
+/* Style for the selected item and input text */
+.custom-dropdown .Select-value,
+.custom-dropdown .Select-input > input {
+    color: black !important; /* Ensures selected item and input text are white */
+}
+
+/* Style for the dropdown menu */
+.custom-dropdown .Select-menu-outer {
+    background-color: #f4f4f4 !important; /* Background of the dropdown options */
+    color: black !important; /* Text color of the dropdown options */
+}
+
+/* Style for each option in the dropdown */
+.custom-dropdown .Select-option {
+    background-color: #f4f4f4 !important; /* Background of options */
+    color: black !important; /* Text color of options */
+}
+
+
